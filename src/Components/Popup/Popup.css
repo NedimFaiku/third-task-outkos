@@ -1,0 +1,48 @@
+.card {
+    position: fixed;
+    left: 25%;
+    top: 10%;
+    width: 50%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+.card-title > p:nth-child(1){
+    font-size: 29px;
+    font-weight: 400;
+}
+.buttons{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 15px;
+}
+.btn-end{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.btn{
+    width: 90px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.cancel{
+    border: 1px solid #4444;
+    color: #444444;
+    background-color: white;
+}
+.save{
+    border: 1px solid #2072EF;
+    background-color: #2072EF;
+    color: white;
+}
+.save:hover{
+    background-color: #0053D1;
+}

@@ -1,0 +1,16 @@
+.main{
+    display: flex;
+    justify-content: end;
+    align-items: flex-start;
+    padding: 50px;
+    height: 100vh;
+}
+.show{
+    width: 180px;
+    height: 40px;
+    border: none;
+    background-color: darkgray;
+    cursor: pointer;
+    color: white;
+    font-size: 25px;
+}
