@@ -1,6 +1,6 @@
 export const data = [
     {
-        name: 'Font color',
+        name: 'Font Color',
         hexCode: '#444444'
     },
     {

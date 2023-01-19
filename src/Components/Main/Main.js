@@ -9,7 +9,7 @@ function Main() {
             <div className='main' style={{backgroundColor: 'grey'}}>
                 <button className='show' onClick={() => setShow(!show)}>Show Popup</button>
             </div>
-            {show && <Popup/>}
+            {show && <Popup state={setShow}/>}
         </div>
     )
 }
