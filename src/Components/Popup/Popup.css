@@ -57,3 +57,17 @@
 .save:hover{
     background-color: #0053D1;
 }
+
+@media only screen and (min-width: 320px) and (max-width: 1024px) {
+    .card{
+        position: absolute;
+        top: 17%;
+        left: 15%;
+        width: 70%;
+        padding: 10px;
+    }
+    .buttons{
+        margin: 0;
+        justify-content: center;
+    }
+}
